@@ -4,5 +4,15 @@
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)",
+        "**/?(*.)+(spec|test).server.[jt]s?(x)"
+      ],
+      "extends": ["plugin:testing-library/react", "plugin:jest-dom/recommended"]
+    }
+  ]
 }
