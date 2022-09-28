@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { createMocks, RequestMethod } from 'node-mocks-http';
 
-import helloAPI from '../hello';
+import helloAPI from '@/pages/api/hello';
 
 describe('/api/hello API Endpoint', () => {
   function mockRequestResponse(method: RequestMethod = 'GET') {
