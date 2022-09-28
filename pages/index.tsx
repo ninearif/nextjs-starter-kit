@@ -47,16 +47,10 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="flex-none py-6 text-slate-500">
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Implemented by{' '}
-          <a href="https://github.com/ninearif" className="text-slate-600">
-            <GoMarkGithub className="inline-block mr-1" />
-            <b className="underline">Arif.w</b>
-          </a>
+        Implemented by{' '}
+        <a href="https://github.com/ninearif" className="text-slate-600">
+          <GoMarkGithub className="inline-block mr-1" />
+          <b className="underline">Arif.w</b>
         </a>
       </footer>
     </div>
