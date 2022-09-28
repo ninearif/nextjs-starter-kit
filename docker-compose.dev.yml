@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    command: dev
+    volumes:
+      - .:/etc/app
+      - /etc/app/node_modules

@@ -9,7 +9,9 @@
     "lint": "next lint",
     "test": "jest",
     "test:server": "jest -c ./jest.config.server.ts",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "docker-dev:up": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up",
+    "docker-prod:up": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
