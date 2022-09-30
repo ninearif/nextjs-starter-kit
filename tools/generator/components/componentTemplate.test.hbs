@@ -1,0 +1,16 @@
+import { render, screen } from '@testing-library/react';
+
+import {{ pascalCase name }} from '@/components/{{ pascalCase name }}/{{ pascalCase name }}';
+
+describe('{{ pascalCase name }} component test', () => {
+  it('{{ pascalCase name }} is rendered as expected.', () => {
+    render(<{{ pascalCase name }} />);
+
+    expect(screen.getByText('{{ pascalCase name }}')).toBeInTheDocument();
+    // expect(screen.getByRole("heading")).toHaveTextContent(/{{ pascalCase name }}/);
+    // expect(screen.getByRole("button", { name: "submit" })).toBeDisabled();
+    // expect(screen.getByRole("img")).toBeInTheDocument();
+    // some cheat sheet can be found here: 
+    // https://testing-library.com/docs/react-testing-library/cheatsheet/
+  });
+});

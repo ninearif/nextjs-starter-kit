@@ -12,5 +12,8 @@
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  }
 }
