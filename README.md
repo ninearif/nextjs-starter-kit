@@ -6,6 +6,7 @@ Any contribution to improve , fixing mistakes or add some new features for this 
 
 - Next.js 12 ([`Document`](https://nextjs.org/docs/getting-started)).
 - React 18 ([`Document`](https://reactjs.org/docs/getting-started.html)).
+- Easy to scaffolding new files via CLI by using `compose` command (plopjs)
 - TailwindCSS 3([`Document`](https://tailwindcss.com/docs/installation)).
 - Docker-compose pre-configured ([`Document`](https://docs.docker.com/compose/)).
 - Jest ([`Document`](https://jestjs.io/docs/api)).
@@ -33,6 +34,21 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Components
+
+You can get faster in create new component files by typing
+
+```bash
+npm run compose
+# or
+yarn compose
+```
+
+it's will automatically create thease files:
+
+- `components/NewComponent/NewComponent.tsx`
+- `components/NewComponent/NewComponent.test.tex`
 
 ## Pages
 
