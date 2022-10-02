@@ -14,3 +14,10 @@ describe('{{ pascalCase name }} component test', () => {
     // https://testing-library.com/docs/react-testing-library/cheatsheet/
   });
 });
+
+describe('{{ pascalCase name }} component snapshot test', () => {
+  it('render {{ pascalCase name }} unchanged', () => {
+    const { container } = render(<{{ pascalCase name }} />);
+    expect(container).toMatchSnapshot();
+  });
+});
