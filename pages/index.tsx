@@ -4,7 +4,7 @@ import { GoMarkGithub } from 'react-icons/go';
 
 const Home: NextPage = () => {
   return (
-    <div className="container mx-auto min-h-screen flex justify-center items-center flex-col">
+    <div className="container mx-auto flex min-h-screen flex-col items-center justify-center">
       <Head>
         <title>Next.js Starter Kit</title>
         <meta
@@ -16,10 +16,10 @@ const Home: NextPage = () => {
 
       <main className="flex flex-grow items-center">
         <div className="py-8 text-center">
-          <h1 className="text-slate-700 text-6xl font-bold">
+          <h1 className="text-6xl font-bold text-slate-700">
             Next.js Starter Kit
           </h1>
-          <p className="text-3xl text-slate-400 py-2">
+          <p className="py-2 text-3xl text-slate-400">
             with pre-configured{' '}
             <a
               href="https://tailwindcss.com/"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
       <footer className="flex-none py-6 text-slate-500">
         Implemented by{' '}
         <a href="https://github.com/ninearif" className="text-slate-600">
-          <GoMarkGithub className="inline-block mr-1" />
+          <GoMarkGithub className="mr-1 inline-block" />
           <b className="underline">Arif.w</b>
         </a>
       </footer>
