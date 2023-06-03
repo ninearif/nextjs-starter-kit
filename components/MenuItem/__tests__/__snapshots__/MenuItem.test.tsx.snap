@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem component snapshot test render MenuItem unchanged 1`] = `
+<div>
+  <a>
+    <div
+      class="btn btn-ghost gap-2"
+    >
+      <b />
+    </div>
+  </a>
+</div>
+`;

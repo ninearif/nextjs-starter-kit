@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  description: 'Add react component',
+  description: 'Add React component',
   prompts: [
     {
       type: 'input',

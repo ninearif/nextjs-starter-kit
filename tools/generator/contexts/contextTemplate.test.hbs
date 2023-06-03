@@ -1,0 +1,23 @@
+import { render, screen } from '@testing-library/react';
+
+import { {{pascalCase name}}Context, {{pascalCase name}}Provider } from './{{pascalCase name}}Context';
+
+describe('{{ pascalCase name }} context test', () => {
+  it('{{ pascalCase name }} stored default value', () => {
+    render(<{{ pascalCase name }} value={}><di>TEST</di></{{ pascalCase name }}>);
+
+    expect(screen.getByText('{{ pascalCase name }}')).toBeInTheDocument();
+    // expect(screen.getByRole("heading")).toHaveTextContent(/{{ pascalCase name }}/);
+    // expect(screen.getByRole("button", { name: "submit" })).toBeDisabled();
+    // expect(screen.getByRole("img")).toBeInTheDocument();
+    // some cheat sheet can be found here: 
+    // https://testing-library.com/docs/react-testing-library/cheatsheet/
+  });
+});
+
+describe('{{ pascalCase name }} component snapshot test', () => {
+  it('render {{ pascalCase name }} unchanged', () => {
+    const { container } = render(<{{ pascalCase name }} />);
+    expect(container).toMatchSnapshot();
+  });
+});

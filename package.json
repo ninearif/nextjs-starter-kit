@@ -1,5 +1,9 @@
 {
   "name": "next-tailwind-boilerplate",
+  "author": {
+    "name": "Arif Waram",
+    "email": "ninearif@hotmail.com"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,14 +23,18 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "@types/react-headroom": "^2.2.2",
+    "axios": "^0.27.2",
+    "clsx": "^1.2.1",
+    "daisyui": "^2.31.0",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-headroom": "^3.2.1",
     "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@types/jest": "^29.0.3",
-    "@types/next": "^9.0.0",
     "@types/node": "18.7.23",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",

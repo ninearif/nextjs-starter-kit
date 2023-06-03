@@ -1,0 +1,25 @@
+import { createContext, ReactNode, useEffect, useState } from 'react';
+
+type Props = {
+  children: ReactNode;
+};
+
+type {{pascalCase name}}Type = {
+  [key: string]: any;
+};
+
+const {{pascalCase name}} = createContext<{{pascalCase name}}Type>({} as {{pascalCase name}}Type);
+
+const {{pascalCase name}}Provider = ({ children }: Props) => {
+  const [state, setState] = useState({} as {{pascalCase name}}Type);
+
+  useEffect(() => {
+    // do something when component mounted
+  }, []);
+
+  return (
+    <{{pascalCase name}}Context.Provider value={user}>{children}</{{pascalCase name}}Context.Provider>
+  );
+};
+
+export { {{pascalCase name}}Context, {{pascalCase name}}ContextProvider };
